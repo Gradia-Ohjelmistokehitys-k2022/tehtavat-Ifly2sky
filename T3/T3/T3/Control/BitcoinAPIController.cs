@@ -47,7 +47,7 @@ namespace T3.Control
 
             foreach (BitcoinData data in api.BitcoinList)
             {
-                if (data.DateTime.Date.ToString() == last.DateTime.Date.ToString())
+                if (data.DateTime.Date== last.DateTime.Date)
                     continue;
                 if (data.Total_volume > last.Total_volume)
                 {

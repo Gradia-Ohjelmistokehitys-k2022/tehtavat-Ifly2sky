@@ -311,7 +311,7 @@
             Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
-            Opacity = 0.95D;
+            Opacity = 0.99900000000000011D;
             Padding = new Padding(3);
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
